@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- =============================== -->
+    <!-- Array Menu Basic Icons  -->
+    <!-- =============================== -->
+    <array name="menuBasicIcons">
+        <item>@drawable/ic_basic</item>
+        <item>@drawable/ic_google_play</item>
+        <item>@drawable/ic_fire_base</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Basic -->
+    <!-- =============================== -->
+    <string-array name="menuBasicList">
+        <item>Básico</item>
+        <item>Google Play Services</item>
+        <item>Firebase</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Content Basic -->
+    <!-- =============================== -->
+    <array name="menuContentBasicIcons">
+        <item>@drawable/ic_basic_concepts</item>
+        <item>@drawable/ic_interfaz</item>
+        <item>@drawable/ic_menu</item>
+        <item>@drawable/ic_widgets</item>
+        <item>@drawable/ic_preferences</item>
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_files</item>
+        <item>@drawable/ic_xml</item>
+        <item>@drawable/ic_content_provides</item>
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_thread</item>
+        <item>@drawable/ic_debug</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Content Basic -->
+    <!-- =============================== -->
+    <string-array name="menuContentBasicList">
+        <item>Conceptos Generales (Android Studio)</item>
+        <item>Interfaz de Usuario en Android</item>
+        <item>Menús en Android</item>
+        <item>Widgets en Android</item>
+        <item>Gestión de Preferencias en Android</item>
+        <item>Bases de Datos en Android</item>
+        <item>Ficheros en Android</item>
+        <item>Tratamiento de XML en Android</item>
+        <item>Content Providers en Android</item>
+        <item>Notificaciones en Android</item>
+        <item>Acceso a Servicios Web en Android</item>
+        <item>Tareas en segundo plano en Android</item>
+        <item>Depuración de aplicaciones en Android</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Content General Concept -->
+    <!-- =============================== -->
+    <array name="menuGeneralConceptIcons">
+        <item>@drawable/ic_environment</item>
+        <item>@drawable/ic_structure</item>
+        <item>@drawable/ic_components</item>
+        <item>@drawable/ic_app</item>
+
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Content General Concept-->
+    <!-- =============================== -->
+    <string-array name="menuGeneralConceptList">
+        <item>Entorno de desarrollo Android (Android Studio)</item>
+        <item>Estructura de un proyecto Android (Android Studio)</item>
+        <item>Componentes de una aplicación Android (Android Studio)</item>
+        <item>Desarrollando una aplicación Android sencilla (Android Studio)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons User Interface in Android -->
+    <!-- =============================== -->
+    <array name="menuUserInterfaceIcons">
+        <item>@drawable/ic_layout</item>
+        <item>@drawable/ic_button</item>
+        <item>@drawable/ic_images</item>
+        <item>@drawable/ic_check</item>
+        <item>@drawable/ic_spinner</item>
+        <item>@drawable/ic_list</item>
+        <item>@drawable/ic_list_view</item>
+        <item>@drawable/ic_table</item>
+        <item>@drawable/ic_recycler</item>
+        <item>@drawable/ic_card_view</item>
+        <item>@drawable/ic_control</item>
+        <item>@drawable/ic_control</item>
+        <item>@drawable/ic_control</item>
+        <item>@drawable/ic_tabs</item>
+        <item>@drawable/ic_fragments</item>
+        <item>@drawable/ic_toolbar</item>
+        <item>@drawable/ic_toolbar</item>
+        <item>@drawable/ic_toolbar</item>
+        <item>@drawable/ic_navigation</item>
+        <item>@drawable/ic_navigation</item>
+        <item>@drawable/ic_animation</item>
+        <item>@drawable/ic_library</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu User Interface in Android-->
+    <!-- =============================== -->
+    <string-array name="menuUserInterfaceList">
+        <item>Interfaz de usuario en Android: Layouts</item>
+        <item>Controles básicos (I): Botones</item>
+        <item>Controles básicos (II): Texto e Imágenes</item>
+        <item>Controles básicos (III): Checkbox y Radiobutton</item>
+        <item>Controles de selección (I): Listas desplegables (Spinner)</item>
+        <item>Controles de selección (II): Listas (ListView)</item>
+        <item>Controles de selección (III): Listas optimizadas (ViewHolder)</item>
+        <item>Controles de selección (IV): Tablas (GridView)</item>
+        <item>Controles de selección (V): RecyclerView</item>
+        <item>Interfaz de Usuario en Android: CardView</item>
+        <item>Interfaz de usuario en Android: Controles personalizados (I)</item>
+        <item>Interfaz de usuario en Android: Controles personalizados (II)</item>
+        <item>Interfaz de usuario en Android: Controles personalizados (III)</item>
+        <item>Interfaz de usuario en Android: Pestañas (Tabs)</item>
+        <item>Interfaz de usuario en Android: Fragments</item>
+        <item>Actionbar / Appbar / Toolbar (I): Actionbar básica</item>
+        <item>Actionbar / Appbar / Toolbar (II): Toolbar</item>
+        <item>Actionbar / Appbar / Toolbar (III): Toolbar + Navegación (Filter / Tabs)</item>
+        <item>Interfaz de usuario en Android: Navigation Drawer [Obsoleto. Ver NavigationView]</item>
+        <item>Interfaz de usuario en Android: Navigation Drawer (NavigationView)</item>
+        <item>Animaciones básicas: CoordinatorLayout</item>
+        <item>Colores: Librería Palette</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Menu in Android -->
+    <!-- =============================== -->
+    <array name="menuMenuIcons">
+        <item>@drawable/ic_menu</item>
+        <item>@drawable/ic_menu</item>
+        <item>@drawable/ic_options</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Menu in Android-->
+    <!-- =============================== -->
+    <string-array name="menuMenuList">
+        <item>Menús en Android (I): Menús y Submenús básicos</item>
+        <item>Menús en Android (II): Menús Contextuales</item>
+        <item>Menús en Android (III): Opciones avanzadas</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Widgets in Android -->
+    <!-- =============================== -->
+    <array name="menuWidgetsIcons">
+        <item>@drawable/ic_widgets</item>
+        <item>@drawable/ic_widgets</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Widgets in Android-->
+    <!-- =============================== -->
+    <string-array name="menuWidgetsList">
+        <item>Interfaz de usuario en Android: Widgets (I)</item>
+        <item>Interfaz de usuario en Android: Widgets (II)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Preferences Management in Android -->
+    <!-- =============================== -->
+    <array name="menuPreferenceManagersIcons">
+        <item>@drawable/ic_preferences</item>
+        <item>@drawable/ic_activity</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Preferences Management in Android-->
+    <!-- =============================== -->
+    <string-array name="menuPreferenceManagerList">
+        <item>Preferencias en Android I: SharedPreferences</item>
+        <item>Preferencias en Android II: PreferenceActivity</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons BD in Android -->
+    <!-- =============================== -->
+    <array name="menuBDIcons">
+        <item>@drawable/ic_sqlite</item>
+        <item>@drawable/ic_add</item>
+        <item>@drawable/ic_search</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Files in Android-->
+    <!-- =============================== -->
+    <string-array name="menuBDList">
+        <item>Bases de datos en Android (I): Primeros pasos con SQLite</item>
+        <item>Bases de datos en Android (II): Inserción, actualización y eliminación de registros</item>
+        <item>Bases de datos en Android (III): Consulta y recuperación de registros</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Files in Android -->
+    <!-- =============================== -->
+    <array name="menuFilesIcons">
+        <item>@drawable/ic_memory</item>
+        <item>@drawable/ic_sd</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Files in Android-->
+    <!-- =============================== -->
+    <string-array name="menuFilesList">
+        <item>Ficheros en Android (I): Memoria Interna</item>
+        <item>Ficheros en Android (II): Memoria Externa (Tarjeta SD)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons XML in Android -->
+    <!-- =============================== -->
+    <array name="menuXMLIcons">
+        <item>@drawable/ic_xml</item>
+        <item>@drawable/ic_xml</item>
+        <item>@drawable/ic_xml</item>
+        <item>@drawable/ic_xml</item>
+        <item>@drawable/ic_xml</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu XML in Android-->
+    <!-- =============================== -->
+    <string-array name="menuXMLList">
+        <item>Tratamiento de XML en Android (I): SAX</item>
+        <item>Tratamiento de XML en Android (II): SAX simplicado</item>
+        <item>Tratamiento de XML en Android (III): DOM</item>
+        <item>Tratamiento de XML en Android (IV): XmlPull</item>
+        <item>Alternativas para leer y escribir XML (y otros ficheros) en Android</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Provides in Android -->
+    <!-- =============================== -->
+    <array name="menuProvidesIcons">
+        <item>@drawable/ic_construction</item>
+        <item>@drawable/ic_content_provides</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Provides in Android-->
+    <!-- =============================== -->
+    <string-array name="menuProvidesList">
+        <item>Content Providers en Android (I): Construcción</item>
+        <item>Content Providers en Android (II): Utilización</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Notifications in Android -->
+    <!-- =============================== -->
+    <array name="menuNotificationsIcons">
+        <item>@drawable/ic_toast</item>
+        <item>@drawable/ic_bars</item>
+        <item>@drawable/ic_dialog</item>
+        <item>@drawable/ic_snack</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Notifications in Android-->
+    <!-- =============================== -->
+    <string-array name="menuNotificationsList">
+        <item>Notificaciones en Android (I): Toast</item>
+        <item>Notificaciones en Android (II): Barra de Estado</item>
+        <item>Notificaciones en Android (III): Diálogos</item>
+        <item>Notificaciones en Android (IV): Snackbar</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Services Web in Android -->
+    <!-- =============================== -->
+    <array name="menuServicesIcons">
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_services</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Services Web in Android-->
+    <!-- =============================== -->
+    <string-array name="menuServicesList">
+        <item tools:ignore="TypographyFractions">Servicios Web SOAP en Android (1/2)</item>
+        <item>Servicios Web SOAP en Android (2/2)</item>
+        <item tools:ignore="TypographyFractions">Servicios Web REST en Android (1/2)</item>
+        <item>Servicios Web REST en Android (2/2)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Task in Android -->
+    <!-- =============================== -->
+    <array name="menuTaskIcons">
+        <item>@drawable/ic_asynck_task</item>
+        <item>@drawable/ic_thread</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Task in Android-->
+    <!-- =============================== -->
+    <string-array name="menuTaskList">
+        <item>Tareas en segundo plano I: Thread y AsyncTask</item>
+        <item>Tareas en segundo plano II: IntentService</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Content Debug in Android -->
+    <!-- =============================== -->
+    <array name="menuDebugIcons">
+        <item>@drawable/ic_debug</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Content Debug in Android-->
+    <!-- =============================== -->
+    <string-array name="menuDebugList">
+        <item>Depuración en Android: Logging</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Content Google Play Services -->
+    <!-- =============================== -->
+    <array name="menuGooglePlayIcons">
+        <item>@drawable/ic_location</item>
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_id</item>
+        <item>@drawable/ic_google_drive</item>
+        <item>@drawable/ic_notifications</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Content Google Play Services -->
+    <!-- =============================== -->
+    <string-array name="menuGooglePlayList">
+        <item>Localización Geográfica en Android</item>
+        <item>Mapas en Android </item>
+        <item>Identificación mediante Google</item>
+        <item>Google Drive en Android</item>
+        <item>Notificaciones Push – Google Cloud Messaging (GCM / C2DM)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Location in Android -->
+    <!-- =============================== -->
+    <array name="menuLocationIcons">
+        <item>@drawable/ic_location</item>
+        <item>@drawable/ic_location</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Location in Android-->
+    <!-- =============================== -->
+    <string-array name="menuLocationList">
+        <item>Localización geográfica en Android (1) [Act. Septiembre 2016]</item>
+        <item>Localización geográfica en Android (2) [Act. Septiembre 2016]</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Maps in Android -->
+    <!-- =============================== -->
+    <array name="menuMapsIcons">
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_maps</item>
+        <item>@drawable/ic_maps</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Maps in Android-->
+    <!-- =============================== -->
+    <string-array name="menuMapsList">
+        <item>Mapas en Android – Google Maps Android API (1) [Act. Septiembre 2016]</item>
+        <item>Mapas en Android – Google Maps Android API (2) [Act. Septiembre 2016]</item>
+        <item>Mapas en Android – Google Maps Android API (3) [Act. Septiembre 2016]</item>
+        <item>Mapas en Android – Google Maps Android API (4) [Act. Septiembre 2016]</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons ID in Android -->
+    <!-- =============================== -->
+    <array name="menuIDIcons">
+        <item>@drawable/ic_id</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu ID in Android-->
+    <!-- =============================== -->
+    <string-array name="menuIDList">
+        <item>Google Sign-In en Android [Act. Septiembre 2016]</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Google Drive in Android -->
+    <!-- =============================== -->
+    <array name="menuGoogleDriveIcons">
+        <item>@drawable/ic_google_drive</item>
+        <item>@drawable/ic_google_drive</item>
+        <item>@drawable/ic_google_drive</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Google Drive in Android-->
+    <!-- =============================== -->
+    <string-array name="menuGoogleDriveList">
+        <item>Google Drive en Android (1) [Act. Septiembre 2016]</item>
+        <item>Google Drive en Android (2) [Act. Septiembre 2016]</item>
+        <item>Google Drive en Android (3) [Act. Septiembre 2016]</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Notifications Push in Android -->
+    <!-- =============================== -->
+    <array name="menuNotificationPushIcons">
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_notifications</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Notifications Push in Android-->
+    <!-- =============================== -->
+    <string-array name="menuNotificationPushList">
+        <item>Introducción [Obsoleto. Ver Firebase]</item>
+        <item>Implementación del Servidor [Obsoleto. Ver Firebase]</item>
+        <item>Implementación del Cliente Android [Obsoleto. Ver Nueva Versión]</item>
+        <item>Implementación del Cliente Android (Nueva Versión) [Obsoleto. Ver Firebase]</item>
+    </string-array>
+
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Content FireBase -->
+    <!-- =============================== -->
+    <array name="menuFireBaseIcons">
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_cloud</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Content FireBase -->
+    <!-- =============================== -->
+    <string-array name="menuFireBaseList">
+        <item>Base de Datos en Tiempo Real (Realtime Database)</item>
+        <item>Notificaciones Push (Cloud Messaging)</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons BD In Real Time -->
+    <!-- =============================== -->
+    <array name="menuBDInRealTimeIcons">
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_bd</item>
+        <item>@drawable/ic_bd</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu BD In Real Time -->
+    <!-- =============================== -->
+    <string-array name="menuBDInRealTimeList">
+        <item>Firebase – Base de Datos en Tiempo Real (1) [Noviembre 2016]</item>
+        <item>Firebase – Base de Datos en Tiempo Real (2) [Noviembre 2016]</item>
+        <item>Firebase – Base de Datos en Tiempo Real (3) [Noviembre 2016]</item>
+        <item>Firebase – Base de Datos en Tiempo Real (4) [Diciembre 2016]</item>
+        <item>Firebase – Base de Datos en Tiempo Real (5) [Diciembre 2016]</item>
+    </string-array>
+
+
+
+    <!-- =============================== -->
+    <!-- Array Menu Icons Cloud Messaging -->
+    <!-- =============================== -->
+    <array name="menuCloudIcons">
+        <item>@drawable/ic_cloud</item>
+        <item>@drawable/ic_cloud</item>
+        <item>@drawable/ic_cloud</item>
+        <item>@drawable/ic_cloud</item>
+    </array>
+
+    <!-- =============================== -->
+    <!-- Array Menu Cloud Messaging -->
+    <!-- =============================== -->
+    <string-array name="menuCloudList">
+        <item>Firebase – Cloud Messaging (1) [Diciembre 2016]</item>
+        <item>Firebase – Cloud Messaging (2) [Enero 2017]</item>
+        <item>Firebase – Cloud Messaging (3) [Enero 2017]</item>
+        <item>Firebase – Cloud Messaging (4) [Enero 2017]</item>
+    </string-array>
+</resources>

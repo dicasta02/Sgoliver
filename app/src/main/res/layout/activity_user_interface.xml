@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.content.general.basic.contentbasic.userInterface.UserInterface">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contentFrameLayout" />
+
+            <!--FrameLayout-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    tools:ignore="LabelFor"
+                    tools:targetApi="o" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contentLinearLayout" />
+
+            <!--LinearLayout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    tools:ignore="LabelFor"
+                    tools:targetApi="o" />
+
+                <Button
+                    android:id="@+id/btnAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/allAccept" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    tools:targetApi="o" />
+
+                <EditText
+                    android:id="@+id/txtDate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="2"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    tools:targetApi="o" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contentTableLayout" />
+
+            <!--TableLayout-->
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <TableRow>
+
+                    <TextView android:text="@string/contentRow1_1" />
+
+                    <TextView android:text="@string/contentRow1_2" />
+
+                    <TextView android:text="@string/contentRow1_3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="@string/contentRow2_1" />
+
+                    <TextView android:text="@string/contentRow2_2" />
+
+                    <TextView android:text="@string/contentRow2_3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_span="2"
+                        android:text="@string/contentRow3_1" />
+
+                    <TextView android:text="@string/contentRow3_2" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contentGridLayout" />
+
+            <!--GridLayout-->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="3"
+                android:orientation="horizontal"
+                android:rowCount="2">
+
+                <TextView android:text="@string/contentRow1_1" />
+
+                <TextView android:text="@string/contentRow1_2" />
+
+                <TextView android:text="@string/contentRow1_3" />
+
+                <TextView android:text="@string/contentRow2_1" />
+
+                <TextView android:text="@string/contentRow2_2" />
+
+                <TextView android:text="@string/contentRow2_3" />
+
+                <TextView
+                    android:layout_columnSpan="2"
+                    android:text="@string/contentRow3_1" />
+
+                <TextView android:text="@string/contentRow3_2" />
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contentRelativeLayout" />
+
+            <!--GridLayout-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:inputType="text"
+                    tools:ignore="LabelFor"
+                    tools:targetApi="o" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edtName"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/allAccept" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

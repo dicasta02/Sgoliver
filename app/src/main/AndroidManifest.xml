@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.softpolaris.sgoliver">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".CustomApp"
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="false"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:appComponentFactory"
+        tools:targetApi="p">
+        <activity android:name=".ui.content.general.basic.contentbasic.userInterface.BasicControlsActivity"></activity>
+        <activity android:name=".ui.content.general.basic.contentbasic.ContentInterfaceUserActivity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.userInterface.UserInterface" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.slide.SlideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.content.general.GeneralContentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.content.general.basic.BasicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.content.general.firebase.FireBaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.content.general.googleplay.GooglePlayActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.content.general.basic.contentbasic.ContentGeneralActivity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.contentgeneral.EnvironmentActivity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.contentgeneral.StructureActivity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.contentgeneral.ComponentActivity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.contentgeneral.DevelopApp1Activity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.contentgeneral.DevelopApp2Activity" />
+        <activity android:name=".ui.content.general.basic.contentbasic.menus.MenusActivity" />
+    </application>
+
+</manifest>

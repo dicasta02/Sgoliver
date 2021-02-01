@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19bc9d</color>
+    <color name="colorPrimaryDark">#008b6f</color>
+    <color name="colorAccent">#62efce</color>
+
+    <color name="white">#fff</color>
+    <color name="red">#db3225</color>
+    <color name="blue">#0D82DC</color>
+    <color name="indicator">#008584</color>
+    <color name="green">#47a54b</color>
+    <color name="deepSeaGreen">#094c4b</color>
+    <color name="indicatorMenu">#abd7d7</color>
+    <color name="black">#000000</color>
+    <color name="orange">#e44d29</color>
+    <color name="gray">#8f8f8f</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <!--Text-->
+    <color name="textColorTitle">@color/black</color>
+    <color name="textColorDark">@color/black</color>
+    <color name="textColorLight">@color/colorAccent</color>
+    <color name="titleTextColor">@color/orange</color>
+    <color name="errorTextColor">@color/red</color>
+
+    <!--Splash-->
+    <color name="splashStartColor">@color/colorPrimary</color>
+    <color name="splashEndColor">@color/colorPrimaryDark</color>
+
+</resources>

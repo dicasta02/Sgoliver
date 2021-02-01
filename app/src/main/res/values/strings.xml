@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="appName">Sgoliver</string>
+
+    <!--General-->
+    <string name="allYes">Si</string>
+    <string name="allNo">No</string>
+    <string name="allNext">Siguiente</string>
+    <string name="allSkip">Escapar</string>
+    <string name="allAccept">Aceptar</string>
+    <string name="allClose">Cerrar</string>
+    <string name="allNoInternet">No cuenta con conexion a Internet</string>
+    <string name="allTryAgain">Intenta de Nuevo</string>
+    <string name="allWelcome">Bienvenidos</string>
+    <string name="allDescriptionOne">Este es un pequeño programa, en el cual quiero implementar lo aprendido.</string>
+    <string name="allDescriptionTwo">Este es un codigo netamente de estudio de la pagina www.sgoviler.net. Y esta prohibido la venta de esta.</string>
+    <string name="allDescriptionSgoliver">Para más información visite la pagina:</string>
+    <string name="allPagWeb">www.sgoliver.net</string>
+    <string name="allServerGenericError">Error del sistema Inténtalo de nuevo. Si el error persiste, póngase en contacto con el servicio al cliente o consulte con su agencia más cercana.</string>
+
+    <!--Content-->
+    <string name="contentUser">Escribe tu nombre:</string>
+    <string name="contentHello">Hola:</string>
+    <string name="contentEmpty">Los campos estan vacios:</string>
+    <string name="contentFrameLayout">FrameLayout</string>
+    <string name="contentLinearLayout">LinearLayout</string>
+    <string name="contentTableLayout">TableLayout</string>
+    <string name="contentGridLayout">GridLayout</string>
+    <string name="contentRelativeLayout">RelativeLayout</string>
+    <string name="contentRow1_1">Celda 1.1</string>
+    <string name="contentRow1_2">Celda 1.2</string>
+    <string name="contentRow1_3">Celda 1.3</string>
+    <string name="contentRow2_1">Celda 2.1</string>
+    <string name="contentRow2_2">Celda 2.2</string>
+    <string name="contentRow2_3">Celda 2.3</string>
+    <string name="contentRow3_1">Celda 3.1</string>
+    <string name="contentRow3_2">Celda 3.2</string>
+
+</resources>

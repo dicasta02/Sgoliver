@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <script type="text/javascript"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Leo84AUAAAAADoXSR7_ySJ5Gx8_VNi9a3CgB_tR"></script>
+    <script>
+                var tokenResponse ;
+            grecaptcha.ready(function() {
+            grecaptcha.execute("6Leo84AUAAAAADoXSR7_ySJ5Gx8_VNi9a3CgB_tR", {action: "home"})
+            .then(function(token) {
+            //document.write("<h1>"+ token + "</h1>")
+                  tokenResponse = token;
+
+            // Verify the token on the server.
+            });
+            });
+
+            function sendToken(token) {
+               <!--window.webkit.messageHandlers.ObserverCaptcha.postMessage({token: tokenResponse});-->
+            alert('I Am a Alert')
+            }
+
+    </script>
+</head>
+<body>
+<br>
+<div style="color:blue;text-align:center">
+    <b>Prueba Recaptcha</b>
+
+</div>
+<div style="color:blue;text-align:center">
+    <button onclick="sendToken()">Enviar</button>
+</div>
+
+</body>
+</html>

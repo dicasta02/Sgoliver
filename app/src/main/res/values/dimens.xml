@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activityHorizontalMargin">16dp</dimen>
+    <dimen name="activityVerticalMargin">16dp</dimen>
+
+    <!--CardView dimensions-->
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardMaxElevation">6dp</dimen>
+
+    <!--Containers-->
+    <dimen name="containerCornerRadius">5dp</dimen>
+    <dimen name="containerCardsHeight">200dp</dimen>
+
+    <!--Buttons-->
+    <dimen name="buttonCornerRadius">10dp</dimen>
+
+    <!--App Bar-->
+    <dimen name="allBarElevation">4dp</dimen>
+
+    <!--Slide-->
+    <dimen name="containerDotsHeight">30dp</dimen>
+</resources>
